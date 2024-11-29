@@ -1,0 +1,28 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs and dumps
+*.log
+*.sql
+*.sqlite
+*.sql.gz
+*.csv
+
+# PHP Composer
+/vendor/
+/composer.lock
+
+# IDE and text editors
+.idea/
+*.sublime-workspace
+*.sublime-project
+.vscode/
+
+# PHP cache and temporary files
+/cache/
+/tmp/
+
+# Confidential files
+.env
+config.php
